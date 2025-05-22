@@ -6,7 +6,7 @@ if(isset($_POST['submit'])){
     $hashed = password_hash($password, PASSWORD_DEFAULT);
     $email = $_POST['email'];
     $sql = "INSERT INTO users(username,passkey,email) VALUES('$username','$hashed','$email')";
-    $result = mysqli_query($conn, $sql); //$conn->query($sql)
+    $result = mysqli_query($conn, $sql); 
     if($result){
         header("location: login.php?msg=New user created");
         exit();
