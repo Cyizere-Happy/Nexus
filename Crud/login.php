@@ -69,7 +69,7 @@
                 <h3>Legal</h3>
                 <ul>
                     <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Services provided</a></li>
                     <li><a href="#">Cookie Policy</a></li>
                 </ul>
             </div>
