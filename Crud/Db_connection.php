@@ -8,5 +8,6 @@ $conn = new mysqli($Hostname,$username,$password,$db_name);
 
 if($conn->connect_error){
     die("Connection Failed:" . $conn->connect_error);
+    header("location: login.php?msg=New user created");
 }
 ?>
